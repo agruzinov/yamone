@@ -1,6 +1,6 @@
 # Yamone
 
-_Yamone_ is a C++ tool designed to interact with Eiger X-ray detectors. It retrieves TIFF data from the Eiger monitoring interface, processes the output, and shows the image using [ADXV](https://www.scripps.edu/tainer/arvai/adxv.html). The project utilizes several libraries to manage HTTP connections, read TIFF files, and handle network communications. Inspired by [EIGERStreamReceiver](https://github.com/SaschaAndresGrimm/EIGERStreamReceiver).
+_Yamone_ (Yet Another MONitoring interface for the Eiger) is a C++ tool designed to interact with Eiger X-ray detectors. It retrieves TIFF data from the Eiger monitoring interface, processes the output, and shows the image using [ADXV](https://www.scripps.edu/tainer/arvai/adxv.html). The project utilizes several libraries to manage HTTP connections, read TIFF files, and handle network communications. Inspired by [EIGERStreamReceiver](https://github.com/SaschaAndresGrimm/EIGERStreamReceiver).
 
 ## Dependencies
 
@@ -15,12 +15,6 @@ This application requires the following libraries and tools:
    - `libcos4`
    - `libomnidynamic4`
    - `libomnicodesets4`
-
-On Debian-based systems, you can install these dependencies with:
-
-```bash
-sudo apt-get install libtiff-dev libtango-dev libcurl4-openssl-dev libomniorb4-dev libomnithread-dev libcos4-dev libomnidynamic4-dev libomnicodesets4-dev
-```
 ---
 ## Configuration:
    
