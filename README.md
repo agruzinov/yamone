@@ -9,12 +9,7 @@ This application requires the following libraries and tools:
 1. **libtiff-dev** - For handling TIFF images.
 2. **libtango** - For interfacing with Tango Controls.
 3. **libcurl** - For HTTP communication with the detector.
-4. **omniORB** - For CORBA support in Tango Controls:
-   - `libomniorb4`
-   - `libomnithread`
-   - `libcos4`
-   - `libomnidynamic4`
-   - `libomnicodesets4`
+4. **omniORB** - For CORBA support in Tango Controls
 ---
 ## Configuration:
    
